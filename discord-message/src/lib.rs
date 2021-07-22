@@ -22,6 +22,7 @@
 
 use serde::{Deserialize, Serialize};
 use url::Url;
+pub use serde_json::Error;
 
 /// Describes a field that can be used inside a message embed
 #[derive(Debug, Serialize, Deserialize, Default)]

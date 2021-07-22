@@ -1,0 +1,19 @@
+[package]
+name = "discord-webhook-client"
+version = "0.1.0"
+authors = ["Evan Pratten <ewpratten@gmail.com>"]
+edition = "2018"
+description = "A super simple client to the Discord webhook service"
+documentation = "https://docs.rs/discord-webhook-client"
+readme = "README.md"
+homepage = "https://github.com/ewpratten/discord-lambda/discord-webhook-client"
+repository = "https://github.com/ewpratten/discord-lambda"
+license = "GPL-3.0"
+keywords = ["discord", "webhook"]
+categories = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+url = "2"
+discord-message = { version = "0.1.0", path = "../discord-message" }
+reqwest = "0.11"

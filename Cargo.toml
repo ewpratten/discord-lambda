@@ -1,2 +1,2 @@
 [workspace]
-members = ["./discord-message"]
+members = ["./discord-message", "./discord-webhook-client"]
