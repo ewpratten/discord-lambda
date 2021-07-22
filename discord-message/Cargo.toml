@@ -1,0 +1,20 @@
+[package]
+name = "discord-message"
+version = "0.1.0"
+authors = ["Evan Pratten <ewpratten@gmail.com>"]
+edition = "2018"
+description = "A crate containing the utilities needed to build Discord webhook messages from Rust"
+documentation = "https://docs.rs/discord-message"
+readme = "README.md"
+homepage = "https://github.com/ewpratten/discord-lambda/discord-message"
+repository = "https://github.com/ewpratten/discord-lambda"
+license = "GPL-3.0"
+keywords = ["discord", "data-structure"]
+categories = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.126", features = ["derive"] }
+serde_json = "1.0.64"
+url = { version = "2", features = ["serde"] }
