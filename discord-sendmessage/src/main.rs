@@ -51,3 +51,4 @@ async fn main() {
     // Send the message
     println!("{:?}", send_message(url, &message).await.unwrap());
 }
+

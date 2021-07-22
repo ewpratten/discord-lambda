@@ -1,0 +1,21 @@
+[package]
+name = "discord-lambda"
+version = "0.1.0"
+authors = ["Evan Pratten <ewpratten@gmail.com>"]
+edition = "2018"
+description = "Framework for building a Discord bot on the Vercel platform"
+documentation = "https://docs.rs/discord-lambda"
+readme = "README.md"
+homepage = "https://github.com/ewpratten/discord-lambda/discord-lambda"
+repository = "https://github.com/ewpratten/discord-lambda"
+license = "GPL-3.0"
+keywords = ["discord", "bot", "lambda"]
+categories = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+url = "2"
+discord-message = { version = "0.1.0", path = "../discord-message" }
+discord-webhook-client = { version = "0.1.0", path = "../discord-webhook-client" }
+http = "0.2"
+vercel_lambda = "0.2"
